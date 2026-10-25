@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Liftoff to orbit: a 3D scroll story</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="mesh"><div class="l sk"><i style="left:-10%;top:-10%;background:#2f8bff"></i><i style="right:-15%;top:10%;background:#6cc1ff"></i><i style="left:20%;bottom:-25%;background:#00fa9a;opacity:.45"></i><i style="right:10%;bottom:-10%;background:#1b5fd0"></i></div><div class="l sp"><i style="left:-15%;top:-20%;background:#0b2f8f;opacity:.9"></i><i style="right:-20%;top:5%;background:#1456d6;opacity:.7"></i><i style="left:15%;bottom:-30%;background:#00fa9a;opacity:.32"></i><i style="right:5%;bottom:-20%;background:#0a4fa0;opacity:.8"></i></div></div>
+<div id="bar"></div><div id="err"></div><canvas id="gl"></canvas>
+<div class="top"><b>ORBIT·3D</b><div class="hud">ALTITUDE <em id="alt">0</em> KM<br>VELOCITY <em id="vel">0.0</em> KM/S</div></div>
+<div class="phase" id="phase">Pre-launch</div>
+<div class="fine">Fan-made concept. Not affiliated with SpaceX. Simplified model.</div>
+<div class="hs" id="h1"><span>Deployable solar array</span></div>
+<div class="hs" id="h2"><span>Communication dish</span></div>
+<div class="hs" id="h3"><span>Imaging payload</span></div>
+
+<section><div class="t"><div class="k">Reusable rockets. Launch on demand.</div><h1>Space is closer than you think</h1><div class="hint">SCROLL TO LAUNCH</div></div></section>
+<section><div class="t"><div class="k">Liftoff</div><h2>Nine engines. One burn.</h2><p>The first stage lights nine engines and pushes through the thick lower atmosphere. Everything below is about to get small.</p></div></section>
+<section><div class="t"><div class="k">Stage separation</div><h2>Drop the booster</h2><p>The spent first stage peels away and flips around to fly back and land, ready to be used again. The upper stage keeps climbing.</p></div></section>
+<section><div class="t"><div class="k">Fairing deploy</div><h2>Open the shell</h2><p>Above the air, the nose cone splits in two and falls away, revealing the satellite inside.</p></div></section>
+<section><div class="t"><div class="k">Meet the satellite</div><h2>Built to do one job well</h2><p>Drag to turn it. A standard bus carries power, radios and a pointing camera.</p><div class="hint">DRAG TO ROTATE</div></div></section>
+<section><div class="t"><div class="k">Unfold</div><h2>Open the wings</h2><p>Solar arrays swing out and lock. Power on, antennas up, first contact with the ground in minutes.</p></div></section>
+<section><div class="t"><div class="k">In orbit</div><h2>Hello, world</h2><p>Around 90 minutes per lap. The mission begins: images, signals and data flowing down to Earth.</p></div></section>
+<section><div class="t"><div class="k">Ready when you are</div><h2>Get to orbit today</h2><a class="cta" href="#">Design your mission</a></div></section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" onerror="this.onerror=null;var n=document.createElement('script');n.src='https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js';n.onload=function(){window.startStory&&window.startStory()};document.head.appendChild(n)"></script>
+<script src="main.js"></script></body></html>
